@@ -1,7 +1,8 @@
-services:
-  apache:
-    build: .
-    ports:
-      - "8080:80"
-    volumes:
-      - ./public_html/:/usr/local/apache2/htdocs/
+
+  services:
+    apache:
+      build: .
+      ports:
+        - "8080:80"
+      volumes:
+        - ./public_html/:/usr/loc al/apache2/htdocs/
