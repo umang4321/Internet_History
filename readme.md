@@ -1,3 +1,3 @@
 #History of the Internet IS601
 
-[FZLayout](http://fzlayout.eastus.azurecontainer.io)
+[FZLayout](http://ug5fzlayout.eastus.azurecontainer.io/index.html)
