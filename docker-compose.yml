@@ -1,7 +1,13 @@
+version: "3.2"
 services:
-  apache:
-    build: .
+  php:
+    image:
+      php:7.4-apache
+  docs:
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8080:80"
     volumes:
-        - ./public_html/ /usr/local/apache2/htdocs/
+      - ./:/app
